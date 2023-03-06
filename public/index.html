@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ashen Sandaruwan</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+    <link href='https://fonts.googleapis.com/css?family=Space Grotesk' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Space Mono' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <nav id="navbar">
+            <div id="nav_left">
+                <a onclick="closeMenu()" href="#home">Home</a>
+            </div>
+            <div id="nav_right">
+                <a href="#about">About</a>
+                <a href="#experience_projects">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div id="nav_ham_menu" onclick="toggleMenu()">
+                <a id="nav_ham_menu_btn" title="Menu" href="javascript:void(0)">
+                    <img id="nav_ham_menu_icon" src="images/list.svg" title="Menu">
+                </a>
+            </div>
+            <div id="nav_ham_menu_items">
+                <a onclick="toggleMenu()" href="#about">About</a>
+                <a onclick="toggleMenu()" href="#experience_projects">Experience</a>
+                <a onclick="toggleMenu()" href="#education">Education</a>
+                <a onclick="toggleMenu()" href="#contact">Contact</a>
+            </div>
+        </nav>
+
+
+        <div id="content">
+
+            <section id="home" class="section">
+                <div class="container">
+                    <div class="title">
+                        Ashen Sandaruwan
+                    </div>
+                    <div class="block">
+                        <p class="subtitle">
+                            I'm a student at University Colombo School of Computing
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="about" class="section">
+                <div class="container">
+
+                    <div class="title">
+                        About Me
+                    </div>
+
+                    <div id="about_img_container">
+                        <img id="about_img" title="Profile Image" src="images/about_img.jpg">
+                    </div>
+
+                    <div class="block">
+                        <h1 class="title">
+                            Ashen Sandaruwan
+                        </h1>
+                        <p class="subtitle">
+                            I'm a student at University Colombo School of Computing. I'm a Cisco
+                            Certified Network Associate. I have worked on full stack web development
+                            projects. I have experience in Microsoft Azure and Azure DevOps.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="experience_projects" class="section">
+                <div class="container">
+
+                    <div class="title">
+                        Projects
+                    </div>
+
+                    <div class="block">
+                        <h1 class="title">
+                            Online Radio
+                        </h1>
+                        <p class="subtitle">
+                            Built a radio and made it available online. Used audio processing software called
+                            Liquidsoap. Hosted the radio on Microsoft Azure. Used Azure Resource Manger and
+                            Bicep language to automate infrastructure deployment. Built a website for the radio.
+                            Created a Web API using C# to add song requests from listeners.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="experience_certifications" class="section">
+                <div class="container">
+
+                    <div class="title">
+                        Certifications
+                    </div>
+
+                    <div class="block">
+                        <h1 class="title">
+                            Cisco Certified Network Associate (CCNA)
+                        </h1>
+                        <p class="subtitle">
+                            Cisco<br>
+                            Issued - 2021 | Expires - 2024
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="education" class="section">
+                <div class="container">
+
+                    <div class="title">
+                        Education
+                    </div>
+
+                    <div class="block">
+                        <h1 class="title">
+                            University of Colombo School of Computing
+                        </h1>
+                        <p class="subtitle">
+                            Bachelor's Degree, Information Systems<br>
+                            2022 - 2025
+                        </p>
+                    </div>
+
+                    <div class="block">
+                        <h1 class="title">
+                            Ananda College, Colombo
+                        </h1>
+                        <p class="subtitle">
+                            Advanced Level<br>
+                            Information and Communications Technology, Economics, Accounting<br>
+                            2018 - 2021
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <div class="container">
+
+                    <div class="title">
+                        Contact
+                    </div>
+
+                    <div id="contact_block" class="block">
+                        <div class="subtitle">
+                            <div id="left">
+                                Email<br>
+                                LinkedIn<br>
+                                Twitter<br>
+                                Phone<br>
+                            </div>
+                            <div id="middle">
+                                ----<br>
+                                ----<br>
+                                ----<br>
+                                ----<br>
+                            </div>
+                            <div id="right">
+                                <a href="mailto:ashen@gmail.com">ashen@gmail.com</a><br>
+                                <a href="https://linkedin.com/in/ashen" target="_blank"
+                                    rel="noopener">linkedin.com/in/ashen</a><br>
+                                <a href="https://twitter.com/ashen" target="_blank"
+                                    rel="noopener">twitter.com/ashen</a><br>
+                                <a href="tel:+94773322445">+94773322445</a><br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="contact_block_mobile" class="block">
+                        <div class="subtitle">Email</div>
+                        <p><a href="mailto:ashen@gmail.com">ashen@gmail.com</a></p>
+                        <br>
+                        <div class="subtitle">LinkedIn</div>
+                        <p><a href="https://linkedin.com/in/ashen" target="_blank"
+                                rel="noopener">linkedin.com/in/ashen</a></p>
+                        <br>
+                        <div class="subtitle">Twitter</div>
+                        <p><a href="https://twitter.com/ashen" target="_blank" rel="noopener">twitter.com/ashen</a></p>
+                        <br>
+                        <div class="subtitle">Phone</div>
+                        <p><a href="tel:+94773322445">+94773322445</a></p>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
